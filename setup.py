@@ -1,14 +1,15 @@
 from setuptools import setup
 
-setup(name='cryptocompy',
+setup(name='cryptocompy3',
       packages=['cryptocompy'],
-      version='0.1.1.dev1',
-      description='Simple wrapper for the public Cryptocompare API.',
-      keywords = '',
-      author='Titian Steiger',
-      author_email='titian.steiger@gmail.com',
-      url='https://github.com/ttsteiger/cryptocompare-python',
-      download_url='https://github.com/ttsteiger/cryptocompare-python/archive/0.1.1.dev1.tar.gz',
+      version='0.1.2',
+      description='Simple wrapper for the public Cryptocompare API (maintenance fork of cryptocompy).',
+      long_description='This is a maintenance fork of Titian Steiger\'s project.',
+      keywords='',
+      author='Sebastian Haberey',
+      author_email='sebastian@haberey.com',
+      url='https://github.com/sebastianhaberey/cryptocompy',
+      download_url='https://github.com/sebastianhaberey/cryptocompy/archive/0.1.2.tar.gz',
       license='MIT',
       python_requires='>=3',
-      install_requires=['requests'],)
+      install_requires=['requests'], )
